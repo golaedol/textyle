@@ -1,13 +1,9 @@
 import {BrowserRouter, Route, Routes} from "react-router-dom"
 import "./App.css"
-import Cst from "../components/cst"
 import Root from "./Root"
+import Fold from "../components/fold"
 
-const routes = [
-  {path: "cst", component: <Cst />},
-  {path: "cst", component: <Cst />},
-  {path: "cst", component: <Cst />}
-]
+const routes = [{path: "fold", component: <Fold />}]
 
 function App() {
   return (

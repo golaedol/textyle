@@ -24,5 +24,8 @@
     "react-router-dom": "^6.22.3",
     "typescript": "^5.2.2",
     "vite": "^5.1.6"
+  },
+  "dependencies": {
+    "styled-components": "^6.1.8"
   }
 }
